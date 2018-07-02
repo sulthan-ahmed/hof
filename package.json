@@ -21,12 +21,13 @@
   "dependencies": {
     "hmpo-form-wizard": "^3.2.0",
     "hmpo-frontend-toolkit": "^1.2.1",
-    "hmpo-govuk-template": "0.0.3",
+    "hmpo-govuk-template": "0.1.0",
     "hmpo-model": "^0.1.2",
     "hmpo-template-mixins": "^3.1.1",
     "hof-controllers": "0.0.4",
     "i18n-future": "^0.1.4",
-    "i18n-lookup": "^0.1.0"
+    "i18n-lookup": "^0.1.0",
+    "snyk": "^1.88.0"
   },
   "browser": {
     "hmpo-form-wizard": false,
@@ -36,5 +37,10 @@
     "i18n-future": false,
     "i18n-lookup": false,
     "hof-controllers": false
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
