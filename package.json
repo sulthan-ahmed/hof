@@ -24,7 +24,7 @@
     "hmpo-govuk-template": "0.0.3",
     "hmpo-model": "^0.1.2",
     "hmpo-template-mixins": "^3.1.1",
-    "hof-controllers": "0.0.4",
+    "hof-controllers": "0.0.5",
     "i18n-future": "^0.1.4",
     "i18n-lookup": "^0.1.0"
   },
