@@ -25,7 +25,7 @@
     "hmpo-model": "^0.1.2",
     "hmpo-template-mixins": "^3.1.1",
     "hof-controllers": "0.0.4",
-    "i18n-future": "^0.1.4",
+    "i18n-future": "^2.0.0",
     "i18n-lookup": "^0.1.0"
   },
   "browser": {
